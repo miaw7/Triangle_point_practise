@@ -31,7 +31,7 @@ namespace Triangle_point_practise
                 return;
             }
             double[] a = { Convert.ToDouble(textBox_tr_AX.Text), Convert.ToDouble(textBox_tr_AY.Text) };//
-            double[] b = { Convert.ToDouble(textBox_tr_BX.Text), Convert.ToDouble(textBox_tr_BY.Text) };
+            double[] b = { Convert.ToDouble(textBox_tr_BX.Text), Convert.ToDouble(textBox_tr_BY.Text) };//
             double[] c = { Convert.ToDouble(textBox_tr_CX.Text), Convert.ToDouble(textBox_tr_CY.Text) };
             double[] point = { Convert.ToDouble(textBox_point_X.Text), Convert.ToDouble(textBox_point_Y.Text) };
             flag = func.Check_points_location(a, b, c, point);

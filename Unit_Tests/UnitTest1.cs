@@ -31,7 +31,7 @@ namespace Unit_Tests
             EventArgs e = new EventArgs();//
             frm1.textBox_point_X.Text = "52";
             frm1.textBox_point_Y.Text = "39";
-            frm1.textBox_tr_AX.Text = "22";
+            frm1.textBox_tr_AX.Text = "22";//
             frm1.textBox_tr_AY.Text = "45";
             frm1.textBox_tr_BX.Text = "33";
             frm1.textBox_tr_BY.Text = "21";
