@@ -68,7 +68,7 @@
             this.textBox_tr_AX.Name = "textBox_tr_AX";
             this.textBox_tr_AX.Size = new System.Drawing.Size(35, 20);
             this.textBox_tr_AX.TabIndex = 0;
-            this.textBox_tr_AX.Text = "22.22";
+            this.textBox_tr_AX.Text = "15";
             this.textBox_tr_AX.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_tr_AX_KeyPress);
             // 
             // textBox_tr_AY
@@ -77,7 +77,7 @@
             this.textBox_tr_AY.Name = "textBox_tr_AY";
             this.textBox_tr_AY.Size = new System.Drawing.Size(35, 20);
             this.textBox_tr_AY.TabIndex = 1;
-            this.textBox_tr_AY.Text = "22.22";
+            this.textBox_tr_AY.Text = "23";
             // 
             // groupBox1
             // 
@@ -147,7 +147,7 @@
             this.textBox_tr_BX.Name = "textBox_tr_BX";
             this.textBox_tr_BX.Size = new System.Drawing.Size(35, 20);
             this.textBox_tr_BX.TabIndex = 0;
-            this.textBox_tr_BX.Text = "22.22";
+            this.textBox_tr_BX.Text = "49";
             // 
             // textBox_tr_BY
             // 
@@ -155,7 +155,7 @@
             this.textBox_tr_BY.Name = "textBox_tr_BY";
             this.textBox_tr_BY.Size = new System.Drawing.Size(35, 20);
             this.textBox_tr_BY.TabIndex = 1;
-            this.textBox_tr_BY.Text = "22.22";
+            this.textBox_tr_BY.Text = "31";
             // 
             // groupBox3
             // 
@@ -194,7 +194,7 @@
             this.textBox_tr_CX.Name = "textBox_tr_CX";
             this.textBox_tr_CX.Size = new System.Drawing.Size(35, 20);
             this.textBox_tr_CX.TabIndex = 0;
-            this.textBox_tr_CX.Text = "22.22";
+            this.textBox_tr_CX.Text = "9";
             // 
             // textBox_tr_CY
             // 
@@ -202,7 +202,7 @@
             this.textBox_tr_CY.Name = "textBox_tr_CY";
             this.textBox_tr_CY.Size = new System.Drawing.Size(35, 20);
             this.textBox_tr_CY.TabIndex = 1;
-            this.textBox_tr_CY.Text = "22.22";
+            this.textBox_tr_CY.Text = "30";
             // 
             // label_head_tr
             // 
@@ -381,7 +381,6 @@
         private System.Windows.Forms.Label label_check_text;
         private System.Windows.Forms.Button button_Clear;
         private System.Windows.Forms.Button button_Exit;
-        private System.Windows.Forms.Label label_check_status;
         private System.Windows.Forms.Button button_Load;
         private System.Windows.Forms.Button Button_Save;
         public System.Windows.Forms.TextBox textBox_tr_AX;
@@ -392,6 +391,7 @@
         public System.Windows.Forms.TextBox textBox_tr_CY;
         public System.Windows.Forms.TextBox textBox_point_X;
         public System.Windows.Forms.TextBox textBox_point_Y;
+        public System.Windows.Forms.Label label_check_status;
     }
 }
 

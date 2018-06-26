@@ -143,7 +143,7 @@ namespace Triangle_point_practise
             }
         }
 
-        private void button_Clear_Click(object sender, EventArgs e)
+        public void button_Clear_Click(object sender, EventArgs e)
         {
             label_check_status.Text = "Не пройдена"; //сбрасываем результат проверки
             textBox_tr_AX.Text = "";
