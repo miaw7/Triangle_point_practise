@@ -10,7 +10,7 @@ namespace Unit_Tests
         [TestMethod]
         public void TestMethod1()
         {
-            Form1 frm1 = new Form1();
+            Main_Form frm1 = new Main_Form();
             EventArgs e = new EventArgs();
             frm1.textBox_point_X.Text = "45";
             frm1.textBox_point_Y.Text = "36";
@@ -27,7 +27,7 @@ namespace Unit_Tests
         [TestMethod]
         public void TestMethod2()
         {
-            Form1 frm1 = new Form1();
+            Main_Form frm1 = new Main_Form();
             EventArgs e = new EventArgs();
             frm1.textBox_point_X.Text = "52";
             frm1.textBox_point_Y.Text = "39";
@@ -44,7 +44,7 @@ namespace Unit_Tests
         [TestMethod]
         public void TestMethod3()
         {
-            Form1 frm1 = new Form1();
+            Main_Form frm1 = new Main_Form();
             EventArgs e = new EventArgs();
             frm1.textBox_point_X.Text = "";
             frm1.textBox_point_Y.Text = "39";
@@ -61,7 +61,7 @@ namespace Unit_Tests
         [TestMethod]
         public void TestMethod4()
         {
-            Form1 frm1 = new Form1();
+            Main_Form frm1 = new Main_Form();
             EventArgs e = new EventArgs();
             frm1.textBox_point_X.Text = "22";
             frm1.textBox_point_Y.Text = "39";
@@ -79,7 +79,7 @@ namespace Unit_Tests
         [TestMethod]
         public void TestMethod5()
         {
-            Form1 frm1 = new Form1();
+            Main_Form frm1 = new Main_Form();
             EventArgs e = new EventArgs();
             frm1.textBox_point_X.Text = "22";
             frm1.textBox_point_Y.Text = "39";

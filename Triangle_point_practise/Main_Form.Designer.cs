@@ -1,6 +1,6 @@
 ﻿namespace Triangle_point_practise
 {
-    partial class Form1
+    partial class Main_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -56,6 +56,7 @@
             this.label_check_status = new System.Windows.Forms.Label();
             this.button_Load = new System.Windows.Forms.Button();
             this.Button_Save = new System.Windows.Forms.Button();
+            this.button_Author = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -301,6 +302,7 @@
             this.button_Exit.TabIndex = 10;
             this.button_Exit.Text = "Выход";
             this.button_Exit.UseVisualStyleBackColor = true;
+            this.button_Exit.Click += new System.EventHandler(this.button_Exit_Click);
             // 
             // label_check_status
             // 
@@ -331,11 +333,22 @@
             this.Button_Save.UseVisualStyleBackColor = true;
             this.Button_Save.Click += new System.EventHandler(this.Button_Save_Click);
             // 
-            // Form1
+            // button_Author
+            // 
+            this.button_Author.Location = new System.Drawing.Point(350, 3);
+            this.button_Author.Name = "button_Author";
+            this.button_Author.Size = new System.Drawing.Size(97, 27);
+            this.button_Author.TabIndex = 14;
+            this.button_Author.Text = "Об авторе";
+            this.button_Author.UseVisualStyleBackColor = true;
+            this.button_Author.Click += new System.EventHandler(this.button_Author_Click);
+            // 
+            // Main_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 253);
+            this.Controls.Add(this.button_Author);
             this.Controls.Add(this.Button_Save);
             this.Controls.Add(this.button_Load);
             this.Controls.Add(this.label_check_status);
@@ -348,7 +361,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "Main_Form";
             this.Text = "Лежит ли точка в треугольнике";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -392,6 +405,7 @@
         public System.Windows.Forms.TextBox textBox_point_X;
         public System.Windows.Forms.TextBox textBox_point_Y;
         public System.Windows.Forms.Label label_check_status;
+        private System.Windows.Forms.Button button_Author;
     }
 }
 

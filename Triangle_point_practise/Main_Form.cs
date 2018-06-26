@@ -5,13 +5,14 @@ using System.Xml.Serialization;
 
 namespace Triangle_point_practise
 {
-    public partial class Form1 : Form
+    public partial class Main_Form : Form
     {
-        public Form1() //констуктор первой формы
+        public Main_Form() //констуктор первой формы
         {
             InitializeComponent();
         }
 
+        Author_Form frm2 = new Author_Form(); //экземпляр второй формы
         Operations func = new Operations(); //экземпляр основного класса операций
         public bool flag = false; //флаг вывода результата
 
@@ -154,6 +155,16 @@ namespace Triangle_point_practise
             textBox_tr_CY.Text = "";
             textBox_point_X.Text = "";
             textBox_point_Y.Text = "";
+        }
+
+        private void button_Author_Click(object sender, EventArgs e)
+        {
+            frm2.Show();
+        }
+
+        private void button_Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 
