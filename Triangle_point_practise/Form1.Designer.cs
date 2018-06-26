@@ -31,21 +31,21 @@
             this.textBox_tr_AX = new System.Windows.Forms.TextBox();
             this.textBox_tr_AY = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label_ay = new System.Windows.Forms.Label();
+            this.label_ax = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label_by = new System.Windows.Forms.Label();
+            this.label_bx = new System.Windows.Forms.Label();
             this.textBox_tr_BX = new System.Windows.Forms.TextBox();
             this.textBox_tr_BY = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label_cy = new System.Windows.Forms.Label();
+            this.label_cx = new System.Windows.Forms.Label();
             this.textBox_tr_CX = new System.Windows.Forms.TextBox();
             this.textBox_tr_CY = new System.Windows.Forms.TextBox();
             this.label_head_tr = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label_point_y = new System.Windows.Forms.Label();
             this.label_point_x = new System.Windows.Forms.Label();
             this.textBox_point_X = new System.Windows.Forms.TextBox();
             this.textBox_point_Y = new System.Windows.Forms.TextBox();
@@ -54,8 +54,8 @@
             this.button_Clear = new System.Windows.Forms.Button();
             this.button_Exit = new System.Windows.Forms.Button();
             this.label_check_status = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_Load = new System.Windows.Forms.Button();
+            this.Button_Save = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -81,8 +81,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label_ay);
+            this.groupBox1.Controls.Add(this.label_ax);
             this.groupBox1.Controls.Add(this.textBox_tr_AX);
             this.groupBox1.Controls.Add(this.textBox_tr_AY);
             this.groupBox1.Location = new System.Drawing.Point(12, 34);
@@ -92,28 +92,28 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Координаты точки А";
             // 
-            // label7
+            // label_ay
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(107, 26);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(14, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Y";
+            this.label_ay.AutoSize = true;
+            this.label_ay.Location = new System.Drawing.Point(107, 26);
+            this.label_ay.Name = "label_ay";
+            this.label_ay.Size = new System.Drawing.Size(14, 13);
+            this.label_ay.TabIndex = 12;
+            this.label_ay.Text = "Y";
             // 
-            // label4
+            // label_ax
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 26);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(14, 13);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "X";
+            this.label_ax.AutoSize = true;
+            this.label_ax.Location = new System.Drawing.Point(6, 26);
+            this.label_ax.Name = "label_ax";
+            this.label_ax.Size = new System.Drawing.Size(14, 13);
+            this.label_ax.TabIndex = 12;
+            this.label_ax.Text = "X";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label_by);
+            this.groupBox2.Controls.Add(this.label_bx);
             this.groupBox2.Controls.Add(this.textBox_tr_BX);
             this.groupBox2.Controls.Add(this.textBox_tr_BY);
             this.groupBox2.Location = new System.Drawing.Point(159, 34);
@@ -123,23 +123,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Координаты точки B";
             // 
-            // label5
+            // label_by
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(108, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(14, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Y";
+            this.label_by.AutoSize = true;
+            this.label_by.Location = new System.Drawing.Point(108, 24);
+            this.label_by.Name = "label_by";
+            this.label_by.Size = new System.Drawing.Size(14, 13);
+            this.label_by.TabIndex = 6;
+            this.label_by.Text = "Y";
             // 
-            // label2
+            // label_bx
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(14, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "X";
+            this.label_bx.AutoSize = true;
+            this.label_bx.Location = new System.Drawing.Point(6, 26);
+            this.label_bx.Name = "label_bx";
+            this.label_bx.Size = new System.Drawing.Size(14, 13);
+            this.label_bx.TabIndex = 6;
+            this.label_bx.Text = "X";
             // 
             // textBox_tr_BX
             // 
@@ -159,8 +159,8 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.label_cy);
+            this.groupBox3.Controls.Add(this.label_cx);
             this.groupBox3.Controls.Add(this.textBox_tr_CX);
             this.groupBox3.Controls.Add(this.textBox_tr_CY);
             this.groupBox3.Location = new System.Drawing.Point(307, 34);
@@ -170,23 +170,23 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Координаты точки C";
             // 
-            // label6
+            // label_cy
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(108, 26);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(14, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Y";
+            this.label_cy.AutoSize = true;
+            this.label_cy.Location = new System.Drawing.Point(108, 26);
+            this.label_cy.Name = "label_cy";
+            this.label_cy.Size = new System.Drawing.Size(14, 13);
+            this.label_cy.TabIndex = 7;
+            this.label_cy.Text = "Y";
             // 
-            // label3
+            // label_cx
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 26);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(14, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "X";
+            this.label_cx.AutoSize = true;
+            this.label_cx.Location = new System.Drawing.Point(7, 26);
+            this.label_cx.Name = "label_cx";
+            this.label_cx.Size = new System.Drawing.Size(14, 13);
+            this.label_cx.TabIndex = 7;
+            this.label_cx.Text = "X";
             // 
             // textBox_tr_CX
             // 
@@ -216,7 +216,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.label1);
+            this.groupBox4.Controls.Add(this.label_point_y);
             this.groupBox4.Controls.Add(this.label_point_x);
             this.groupBox4.Controls.Add(this.textBox_point_X);
             this.groupBox4.Controls.Add(this.textBox_point_Y);
@@ -228,14 +228,14 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Координаты проверяемой точки";
             // 
-            // label1
+            // label_point_y
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(146, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 15);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Y";
+            this.label_point_y.AutoSize = true;
+            this.label_point_y.Location = new System.Drawing.Point(146, 22);
+            this.label_point_y.Name = "label_point_y";
+            this.label_point_y.Size = new System.Drawing.Size(14, 15);
+            this.label_point_y.TabIndex = 5;
+            this.label_point_y.Text = "Y";
             // 
             // label_point_x
             // 
@@ -291,6 +291,7 @@
             this.button_Clear.TabIndex = 9;
             this.button_Clear.Text = "Очистить";
             this.button_Clear.UseVisualStyleBackColor = true;
+            this.button_Clear.Click += new System.EventHandler(this.button_Clear_Click);
             // 
             // button_Exit
             // 
@@ -310,31 +311,33 @@
             this.label_check_status.TabIndex = 11;
             this.label_check_status.Text = "Не пройдена";
             // 
-            // button1
+            // button_Load
             // 
-            this.button1.Location = new System.Drawing.Point(342, 157);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 32);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Загрузить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_Load.Location = new System.Drawing.Point(342, 157);
+            this.button_Load.Name = "button_Load";
+            this.button_Load.Size = new System.Drawing.Size(97, 32);
+            this.button_Load.TabIndex = 12;
+            this.button_Load.Text = "Загрузить";
+            this.button_Load.UseVisualStyleBackColor = true;
+            this.button_Load.Click += new System.EventHandler(this.button_Load_Click);
             // 
-            // button2
+            // Button_Save
             // 
-            this.button2.Location = new System.Drawing.Point(21, 157);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 32);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Сохранить";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Button_Save.Location = new System.Drawing.Point(21, 157);
+            this.Button_Save.Name = "Button_Save";
+            this.Button_Save.Size = new System.Drawing.Size(97, 32);
+            this.Button_Save.TabIndex = 13;
+            this.Button_Save.Text = "Сохранить";
+            this.Button_Save.UseVisualStyleBackColor = true;
+            this.Button_Save.Click += new System.EventHandler(this.Button_Save_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 253);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Button_Save);
+            this.Controls.Add(this.button_Load);
             this.Controls.Add(this.label_check_status);
             this.Controls.Add(this.button_Exit);
             this.Controls.Add(this.button_Clear);
@@ -362,25 +365,25 @@
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label_ay;
+        private System.Windows.Forms.Label label_ax;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label_by;
+        private System.Windows.Forms.Label label_bx;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label_cy;
+        private System.Windows.Forms.Label label_cx;
         private System.Windows.Forms.Label label_head_tr;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label_point_y;
         private System.Windows.Forms.Label label_point_x;
         private System.Windows.Forms.Button button_CheckPoint;
         private System.Windows.Forms.Label label_check_text;
         private System.Windows.Forms.Button button_Clear;
         private System.Windows.Forms.Button button_Exit;
         private System.Windows.Forms.Label label_check_status;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button_Load;
+        private System.Windows.Forms.Button Button_Save;
         public System.Windows.Forms.TextBox textBox_tr_AX;
         public System.Windows.Forms.TextBox textBox_tr_AY;
         public System.Windows.Forms.TextBox textBox_tr_BX;
